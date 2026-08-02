@@ -1,5 +1,10 @@
 [
   {
+    "version": "0.2.14",
+    "date": "2026-08-02",
+    "notes": "Ask across your notes just got sharper: when you name a meeting (\"the DSI meeting\"), that meeting now leads the answer, even if your question's wording happens to match other meetings better."
+  },
+  {
     "version": "0.2.13",
     "date": "2026-08-02",
     "notes": "Various fixes."
