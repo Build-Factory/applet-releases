@@ -1,0 +1,15 @@
+# The org ruleset requires a check named ci-passed on every repo, including
+# this artifacts-only one. This satisfies it: the repo holds a JSON manifest
+# and release assets; there is nothing to build or test.
+name: CI
+on:
+  pull_request:
+  push:
+    branches: [main]
+jobs:
+  ci-passed:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate manifest
+        run: python3 -c "import json; m=json.load(open('latest.json')); assert m['version'] and m['url'].startswith('https://github.com/Build-Factory/applet-releases/releases/download/'); print('manifest ok:', m['version'])"
