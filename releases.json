@@ -1,5 +1,10 @@
 [
   {
+    "version": "0.2.12",
+    "date": "2026-08-02",
+    "notes": "After each update, a small badge appears next to settings. Click it to see what changed and why it matters to you. (You are looking at it right now.)"
+  },
+  {
     "version": "0.2.11",
     "date": "2026-08-02",
     "notes": "Various fixes and polish."
