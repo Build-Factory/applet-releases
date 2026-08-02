@@ -1,5 +1,5 @@
 {
-  "version": "0.2.5",
-  "url": "https://github.com/Build-Factory/applet-releases/releases/download/v0.2.5/BuildFactory-0.2.5-arm64.dmg",
-  "notes": "Screen context + speaker names fixed in the packaged app; BuildFactory AI default; cleaner bar."
+  "version": "0.2.8",
+  "url": "https://github.com/Build-Factory/applet-releases/releases/download/v0.2.8/BuildFactory-0.2.8-arm64.dmg",
+  "notes": "Bar opens on launch, web-parity pulse cards, resolve fix, permission self-heal."
 }
