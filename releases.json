@@ -1,0 +1,22 @@
+[
+  {
+    "version": "0.2.11",
+    "date": "2026-08-02",
+    "notes": "Various fixes and polish."
+  },
+  {
+    "version": "0.2.10",
+    "date": "2026-08-02",
+    "notes": "New here? Notes now starts with a sample meeting so you can see exactly what a summary looks like before you record your first one."
+  },
+  {
+    "version": "0.2.9",
+    "date": "2026-08-02",
+    "notes": "Ask across your notes now understands meaning, not just keywords. Ask \"what did we promise the client?\" and it finds the answer even when your notes said it a different way. All of it happens privately on your Mac."
+  },
+  {
+    "version": "0.2.8",
+    "date": "2026-08-02",
+    "notes": "BuildFactory now opens as soon as you launch it, and Pulse cards are cleaner and faster to triage. Plus various fixes."
+  }
+]
