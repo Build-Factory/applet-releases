@@ -1,5 +1,5 @@
 {
-  "version": "0.2.14",
-  "url": "https://github.com/Build-Factory/applet-releases/releases/download/v0.2.14/BuildFactory-0.2.14-arm64.dmg",
-  "notes": "Ask finds the right meeting when you name it."
+  "version": "0.2.15",
+  "url": "https://github.com/Build-Factory/applet-releases/releases/download/v0.2.15/BuildFactory-0.2.15-arm64.dmg",
+  "notes": "Release notes in Settings; various fixes."
 }
