@@ -1,5 +1,5 @@
 {
-  "version": "0.2.10",
-  "url": "https://github.com/Build-Factory/applet-releases/releases/download/v0.2.10/BuildFactory-0.2.10-arm64.dmg",
-  "notes": "Sample note for first runs; semantic Ask."
+  "version": "0.2.11",
+  "url": "https://github.com/Build-Factory/applet-releases/releases/download/v0.2.11/BuildFactory-0.2.11-arm64.dmg",
+  "notes": "Email and Chat chips gate on their integrations."
 }
