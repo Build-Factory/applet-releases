@@ -1,5 +1,10 @@
 [
   {
+    "version": "0.2.20",
+    "date": "2026-08-03",
+    "notes": "Teams calls now name who is speaking in real time (keep the participants panel open). The transcript panel opens only when you ask and sits beside your notes instead of covering them. Copied summaries keep their formatting when pasted into Slack, Gmail, or Notion."
+  },
+  {
     "version": "0.2.19",
     "date": "2026-08-03",
     "notes": "Your typed notes and the AI summary are now one document: everything you write during a meeting appears in the finished notes, in your words, expanded with detail from the transcript. Your original typed notes stay one click away."
