@@ -1,5 +1,10 @@
 [
   {
+    "version": "0.2.21",
+    "date": "2026-08-03",
+    "notes": "Create builds right from a note: pick a project, choose + New build, and the note files itself under it. Back-to-back calls now get separate notes; hopping from Teams to a Slack huddle ends the first recording and offers a fresh one. First-meeting transcription is much faster; the model now readies itself in the background when Notes opens."
+  },
+  {
     "version": "0.2.20",
     "date": "2026-08-03",
     "notes": "Teams calls now name who is speaking in real time (keep the participants panel open). The transcript panel opens only when you ask and sits beside your notes instead of covering them. Copied summaries keep their formatting when pasted into Slack, Gmail, or Notion."
