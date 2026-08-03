@@ -1,5 +1,10 @@
 [
   {
+    "version": "0.2.16",
+    "date": "2026-08-03",
+    "notes": "Getting started is now one step: the welcome tour begins with your BuildFactory sign-in, and new teammates can create an account right from the tour. The BuildFactory helmet also now sits in your Mac menu bar; click it to open the bar anytime. Plus various fixes."
+  },
+  {
     "version": "0.2.15",
     "date": "2026-08-02",
     "notes": "You can now browse all release notes any time from Settings. Plus various fixes."
