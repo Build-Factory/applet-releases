@@ -1,5 +1,10 @@
 [
   {
+    "version": "0.2.22",
+    "date": "2026-08-03",
+    "notes": "Action items now become assigned tasks: the owner on an action item is matched to your company directory, so creating the task assigns it to the right person automatically. Adding people to a meeting got smarter too; type a name or email and they are matched and linked to their BuildFactory account, showing their real name everywhere."
+  },
+  {
     "version": "0.2.21",
     "date": "2026-08-03",
     "notes": "Create builds right from a note: pick a project, choose + New build, and the note files itself under it. Back-to-back calls now get separate notes; hopping from Teams to a Slack huddle ends the first recording and offers a fresh one. First-meeting transcription is much faster; the model now readies itself in the background when Notes opens."
