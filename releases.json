@@ -1,5 +1,10 @@
 [
   {
+    "version": "0.2.17",
+    "date": "2026-08-03",
+    "notes": "Meeting recordings just got more trustworthy: if BuildFactory ever cannot hear the other side of your call, a banner now tells you immediately, with a one-click permission fix, instead of quietly recording only your microphone."
+  },
+  {
     "version": "0.2.16",
     "date": "2026-08-03",
     "notes": "Getting started is now one step: the welcome tour begins with your BuildFactory sign-in, and new teammates can create an account right from the tour. The BuildFactory helmet also now sits in your Mac menu bar; click it to open the bar anytime. Plus various fixes."
