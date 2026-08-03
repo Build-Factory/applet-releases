@@ -1,5 +1,10 @@
 [
   {
+    "version": "0.2.19",
+    "date": "2026-08-03",
+    "notes": "Your typed notes and the AI summary are now one document: everything you write during a meeting appears in the finished notes, in your words, expanded with detail from the transcript. Your original typed notes stay one click away."
+  },
+  {
     "version": "0.2.18",
     "date": "2026-08-03",
     "notes": "Meeting detection now covers Slack huddles, Teams, and Webex, so the take-notes offer appears no matter where your call starts. Fixing a name once in your summary now offers to update it everywhere in the note, including the transcript. Release notes are fully scrollable."
