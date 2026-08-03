@@ -1,5 +1,10 @@
 [
   {
+    "version": "0.2.23",
+    "date": "2026-08-03",
+    "notes": "Action items grew up: assign any item to a meeting attendee from a dropdown, set due dates with a date picker, and once an item becomes a BuildFactory task the row shows In BuildFactory and jumps straight to it. Delegating a task automatically keeps you watching it. You can also fix a mishearing right in the transcript (double-click the line) and carry the fix through the whole note in one tap. Plus various fixes."
+  },
+  {
     "version": "0.2.22",
     "date": "2026-08-03",
     "notes": "Action items now become assigned tasks: the owner on an action item is matched to your company directory, so creating the task assigns it to the right person automatically. Adding people to a meeting got smarter too; type a name or email and they are matched and linked to their BuildFactory account, showing their real name everywhere."
