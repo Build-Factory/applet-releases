@@ -1,5 +1,5 @@
 {
-  "version": "0.2.16",
-  "url": "https://github.com/Build-Factory/applet-releases/releases/download/v0.2.16/BuildFactory-0.2.16-arm64.dmg",
-  "notes": "Sign-in-first welcome tour, menu bar helmet, and various fixes."
+  "version": "0.2.17",
+  "url": "https://github.com/Build-Factory/applet-releases/releases/download/v0.2.17/BuildFactory-0.2.17-arm64.dmg",
+  "notes": "Visible warning + one-click fix when system audio is not captured, plus various fixes."
 }
