@@ -1,5 +1,10 @@
 [
   {
+    "version": "0.2.18",
+    "date": "2026-08-03",
+    "notes": "Meeting detection now covers Slack huddles, Teams, and Webex, so the take-notes offer appears no matter where your call starts. Fixing a name once in your summary now offers to update it everywhere in the note, including the transcript. Release notes are fully scrollable."
+  },
+  {
     "version": "0.2.17",
     "date": "2026-08-03",
     "notes": "Meeting recordings just got more trustworthy: if BuildFactory ever cannot hear the other side of your call, a banner now tells you immediately, with a one-click permission fix, instead of quietly recording only your microphone."
