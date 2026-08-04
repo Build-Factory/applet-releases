@@ -1,5 +1,5 @@
 {
-  "version": "0.2.27",
-  "url": "https://github.com/Build-Factory/applet-releases/releases/download/v0.2.27/BuildFactory-0.2.27-arm64.dmg",
-  "notes": "Fixes leaked background helpers that could pin your CPU; cleans up existing ones."
+  "version": "0.2.28",
+  "url": "https://github.com/Build-Factory/applet-releases/releases/download/v0.2.28/BuildFactory-0.2.28-arm64.dmg",
+  "notes": "Header alignment with the transcript open; clearer transcription and privacy copy."
 }
