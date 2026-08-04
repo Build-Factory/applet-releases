@@ -1,5 +1,10 @@
 [
   {
+    "version": "0.2.26",
+    "date": "2026-08-03",
+    "notes": "Fixes chips that could stop opening. Switching quickly between Tasks, Builds and Projects now always opens the one you clicked last, and if a window ever gets stuck the app recovers on its own instead of needing a restart."
+  },
+  {
     "version": "0.2.25",
     "date": "2026-08-03",
     "notes": "Meeting attendees now show as people, not email addresses, everywhere they appear: the attendee list, the people editor, and the summaries themselves. Names come from your BuildFactory directory when the person has an account, and are derived from their address when they do not."
