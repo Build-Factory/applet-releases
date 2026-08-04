@@ -1,5 +1,10 @@
 [
   {
+    "version": "0.2.24",
+    "date": "2026-08-03",
+    "notes": "Your edits to a meeting summary are now protected: renaming a speaker or switching templates will never overwrite writing you did by hand. You can also ask the AI to rewrite a follow-up email with your own instruction, like \"make it shorter\" or \"mention the Friday deadline\", as many times as you want. Includes a security hardening fix for how saved sign-ins are stored on your Mac."
+  },
+  {
     "version": "0.2.23",
     "date": "2026-08-03",
     "notes": "Action items grew up: assign any item to a meeting attendee from a dropdown, set due dates with a date picker, and once an item becomes a BuildFactory task the row shows In BuildFactory and jumps straight to it. Delegating a task automatically keeps you watching it. You can also fix a mishearing right in the transcript (double-click the line) and carry the fix through the whole note in one tap. Plus various fixes."
