@@ -1,5 +1,10 @@
 [
   {
+    "version": "0.2.28",
+    "date": "2026-08-03",
+    "notes": "The note header no longer overlaps itself when the transcript panel is open. Settings is also clearer about what runs where: cloud includes cloud transcription, and On this Mac keeps everything on-device so no meeting audio ever leaves your Mac."
+  },
+  {
     "version": "0.2.27",
     "date": "2026-08-03",
     "notes": "Important fix: a background helper that detects when you are on a call was not shutting down with the app, so copies built up over time and could drive your Mac's CPU hard. They now exit properly, and this update cleans up any left behind. If your fans have been loud, this is why."
