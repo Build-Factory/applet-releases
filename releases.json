@@ -1,5 +1,10 @@
 [
   {
+    "version": "0.2.27",
+    "date": "2026-08-03",
+    "notes": "Important fix: a background helper that detects when you are on a call was not shutting down with the app, so copies built up over time and could drive your Mac's CPU hard. They now exit properly, and this update cleans up any left behind. If your fans have been loud, this is why."
+  },
+  {
     "version": "0.2.26",
     "date": "2026-08-03",
     "notes": "Fixes chips that could stop opening. Switching quickly between Tasks, Builds and Projects now always opens the one you clicked last, and if a window ever gets stuck the app recovers on its own instead of needing a restart."
