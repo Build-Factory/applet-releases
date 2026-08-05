@@ -1,5 +1,10 @@
 [
   {
+    "version": "0.2.29",
+    "date": "2026-08-04",
+    "notes": "Recordings stop on their own again when your call ends, even if another app like Slack is still using your microphone. If BuildFactory ever cannot hear the other side, the Fix permission step now relaunches the app for you, which is what macOS actually requires for a new screen recording permission to take effect. Builds created from a note are also filed under the right project again."
+  },
+  {
     "version": "0.2.28",
     "date": "2026-08-03",
     "notes": "The note header no longer overlaps itself when the transcript panel is open. Settings is also clearer about what runs where: cloud includes cloud transcription, and On this Mac keeps everything on-device so no meeting audio ever leaves your Mac."
