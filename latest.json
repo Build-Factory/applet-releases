@@ -1,5 +1,5 @@
 {
-  "version": "0.2.28",
-  "url": "https://github.com/Build-Factory/applet-releases/releases/download/v0.2.28/BuildFactory-0.2.28-arm64.dmg",
-  "notes": "Header alignment with the transcript open; clearer transcription and privacy copy."
+  "version": "0.2.29",
+  "url": "https://github.com/Build-Factory/applet-releases/releases/download/v0.2.29/BuildFactory-0.2.29-arm64.dmg",
+  "notes": "Auto-stop works with other apps on the mic; permission fix relaunches; note builds file under their project."
 }
