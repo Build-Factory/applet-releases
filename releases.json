@@ -1,5 +1,10 @@
 [
   {
+    "version": "0.2.30",
+    "date": "2026-08-04",
+    "notes": "Fixes a crash: if a meeting was detected while your Notes window was open, BuildFactory could quit with an error dialog. That is fixed, and the app now recovers from unexpected errors instead of closing, so a fault can no longer end a recording in progress."
+  },
+  {
     "version": "0.2.29",
     "date": "2026-08-04",
     "notes": "Recordings stop on their own again when your call ends, even if another app like Slack is still using your microphone. If BuildFactory ever cannot hear the other side, the Fix permission step now relaunches the app for you, which is what macOS actually requires for a new screen recording permission to take effect. Builds created from a note are also filed under the right project again."
