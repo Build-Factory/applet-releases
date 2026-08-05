@@ -1,5 +1,5 @@
 {
-  "version": "0.2.29",
-  "url": "https://github.com/Build-Factory/applet-releases/releases/download/v0.2.29/BuildFactory-0.2.29-arm64.dmg",
-  "notes": "Auto-stop works with other apps on the mic; permission fix relaunches; note builds file under their project."
+  "version": "0.2.30",
+  "url": "https://github.com/Build-Factory/applet-releases/releases/download/v0.2.30/BuildFactory-0.2.30-arm64.dmg",
+  "notes": "Fixes a crash when a meeting was detected with Notes open; app now recovers from errors instead of quitting."
 }
