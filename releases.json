@@ -1,5 +1,10 @@
 [
   {
+    "version": "0.2.31",
+    "date": "2026-08-21",
+    "notes": "Transcription no longer depends on your own AI account. BuildFactory now transcribes through the BuildFactory service first, falls back to a personal key if you have one, and to on-device transcription otherwise. If an AI account ever runs out of credits, it switches to on-device immediately and tells you, instead of retrying quietly and leaving you without a transcript. Also includes updated AI libraries and reliability fixes from the last few weeks."
+  },
+  {
     "version": "0.2.30",
     "date": "2026-08-04",
     "notes": "Fixes a crash: if a meeting was detected while your Notes window was open, BuildFactory could quit with an error dialog. That is fixed, and the app now recovers from unexpected errors instead of closing, so a fault can no longer end a recording in progress."
