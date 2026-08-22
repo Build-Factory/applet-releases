@@ -1,5 +1,10 @@
 [
   {
+    "version": "0.2.32",
+    "date": "2026-08-21",
+    "notes": "Your meetings are now un-losable: recorded audio is saved to disk the moment a recording stops and kept until a transcript exists, so a failed transcription can be retried with one click instead of losing the meeting. Fixed the bug that kept signing everyone out; if a session does expire, you get a real notification instead of silence. Notes now asks you to sign in to BuildFactory before use, remembers your email, and works with password managers."
+  },
+  {
     "version": "0.2.31",
     "date": "2026-08-21",
     "notes": "Transcription no longer depends on your own AI account. BuildFactory now transcribes through the BuildFactory service first, falls back to a personal key if you have one, and to on-device transcription otherwise. If an AI account ever runs out of credits, it switches to on-device immediately and tells you, instead of retrying quietly and leaving you without a transcript. Also includes updated AI libraries and reliability fixes from the last few weeks."
