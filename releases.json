@@ -1,5 +1,10 @@
 [
   {
+    "version": "0.2.34",
+    "date": "2026-08-24",
+    "notes": "Recordings now stop on their own shortly after your meeting ends (and when your Mac sleeps), instead of running until you remember. Meeting popups show the meeting's name instead of a truncated app name, and you get one notification per meeting, not two. The record button is now a green button that says Record. Cloud transcription is more reliable: an expired session refreshes and retries instead of silently falling back."
+  },
+  {
     "version": "0.2.33",
     "date": "2026-08-24",
     "notes": "One sign-in now signs you in everywhere: log in from Notes and the whole applet lights up, log out and every window knows. Embedded Tasks, Builds, and Projects screens no longer lose their session mid-use. Recording is calmer: a live green level meter shows the meeting is being captured and the stop button is small and quiet. New installs are asked to allow notifications at the end of setup instead of one minute before their first meeting."
