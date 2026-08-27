@@ -1,8 +1,13 @@
 [
   {
+    "version": "0.2.37",
+    "date": "2026-08-27",
+    "notes": "Restores meeting detection, automatic recording stop, and live speaker names, which 0.2.36 shipped without. Also makes briefing failures explain themselves instead of failing silently."
+  },
+  {
     "version": "0.2.36",
     "date": "2026-08-25",
-    "notes": "No user-facing changes. This release marks the switch to fully automated builds: signed and notarized by the release pipeline instead of built by hand."
+    "notes": "First fully automated release. Known issue, fixed in 0.2.37: this build shipped without meeting detection, automatic recording stop, and live speaker names. Update as soon as 0.2.37 appears."
   },
   {
     "version": "0.2.35",
