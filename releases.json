@@ -1,5 +1,10 @@
 [
   {
+    "version": "0.2.38",
+    "date": "2026-09-10",
+    "notes": "Closing and reopening your Mac no longer signs you out — the biggest reliability annoyance of the last version is fixed. Notes without a title now get a short, meaningful headline written automatically from what the meeting was about. Long meetings with more than one topic are broken into named sections per topic, plus separate Decisions and Action Items, instead of one long flat list. The notes writing area now fills the whole window and grows with what you type, so nothing gets clipped into a tiny box. Your end-of-day briefing now comes from the same place as your morning one, and matches what you see on the BuildFactory website. Behind the scenes: opt-in backup of your notes to your BuildFactory account is now available for early testing."
+  },
+  {
     "version": "0.2.37",
     "date": "2026-08-27",
     "notes": "Restores meeting detection, automatic recording stop, and live speaker names, which 0.2.36 shipped without. Also makes briefing failures explain themselves instead of failing silently."
