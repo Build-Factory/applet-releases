@@ -1,5 +1,10 @@
 [
   {
+    "version": "0.2.39",
+    "date": "2026-09-15",
+    "notes": "Signing in now populates your Pulses, Projects, and Tasks counts right away instead of leaving them blank until the next refresh, and the applet no longer loops on \"please sign in again\" when the connection is slow. Meeting notes get three fixes: renaming one speaker never accidentally splices into an attendee's full name, foreign-language subtitle noise from quiet meetings is dropped from transcripts, and your own lines read \"You\" even when your voice went through the system channel instead of the mic. The meeting-detect pill picks the meeting that just started over long in-progress blocks and lets you switch when several overlap; it also pops even when the notes window is already open. New Granola-style tray dropdown shows today and tomorrow's meetings with a quick-nav row. Action items are editable in place before you push them to BuildFactory. On Windows: proper visible tray icon, taskbar unread badge, Start-at-Login toggle, and installers are now signed with a DigiCert EV certificate so SmartScreen stops warning about them."
+  },
+  {
     "version": "0.2.38",
     "date": "2026-09-10",
     "notes": "Closing and reopening your Mac no longer signs you out — the biggest reliability annoyance of the last version is fixed. Notes without a title now get a short, meaningful headline written automatically from what the meeting was about. Long meetings with more than one topic are broken into named sections per topic, plus separate Decisions and Action Items, instead of one long flat list. The notes writing area now fills the whole window and grows with what you type, so nothing gets clipped into a tiny box. Your end-of-day briefing now comes from the same place as your morning one, and matches what you see on the BuildFactory website. Behind the scenes: opt-in backup of your notes to your BuildFactory account is now available for early testing."
