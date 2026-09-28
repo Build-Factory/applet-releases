@@ -1,5 +1,15 @@
 [
   {
+    "version": "0.2.41",
+    "date": "2026-09-28",
+    "notes": "Live transcription moves to AssemblyAI Universal-Streaming, so words appear as they are spoken and come back more accurate on accented and overlapping speech. When the transcription service drops mid-meeting the recording is no longer lost — the applet reconnects and keeps the audio, instead of ending the meeting with nothing to show. Speakers the service can separate but not name now read as \"Speaker A\", \"Speaker B\" and so on rather than blank labels. Action items that say \"tomorrow\" or \"next Friday\" resolve against the day the meeting actually happened. The menubar LIVE row shows the meeting you are recording instead of whichever all-day event happened to be on the calendar. Accepting a meeting from the calendar pill opens one browser tab, not two. The update prompt stops reappearing once you have already updated. Two panels are back in Settings: Release notes, and the Activity log under Diagnostics."
+  },
+  {
+    "version": "0.2.40",
+    "date": "2026-09-22",
+    "notes": "The notes pop-up now appears three minutes before every scheduled meeting on your calendar and stays put until you click into it or ten minutes past the meeting's start — no more scrambling to find the Join button after the call has begun. Signed-in users always get cloud transcription, even without a personal AI key, so notes come back in seconds instead of after a half-hour of local processing. Deleting a note keeps you where you were in the list instead of jumping you back to the top. Solo calls no longer show a false \"nobody is being captured\" warning. Windows users see Windows-appropriate copy on permission prompts instead of macOS-only settings text. Behind the scenes: opt-in Windows microphone status watcher for tighter permission handling."
+  },
+  {
     "version": "0.2.39",
     "date": "2026-09-15",
     "notes": "Signing in now populates your Pulses, Projects, and Tasks counts right away instead of leaving them blank until the next refresh, and the applet no longer loops on \"please sign in again\" when the connection is slow. Meeting notes get three fixes: renaming one speaker never accidentally splices into an attendee's full name, foreign-language subtitle noise from quiet meetings is dropped from transcripts, and your own lines read \"You\" even when your voice went through the system channel instead of the mic. The meeting-detect pill picks the meeting that just started over long in-progress blocks and lets you switch when several overlap; it also pops even when the notes window is already open. New Granola-style tray dropdown shows today and tomorrow's meetings with a quick-nav row. Action items are editable in place before you push them to BuildFactory. On Windows: proper visible tray icon, taskbar unread badge, Start-at-Login toggle, and installers are now signed with a DigiCert EV certificate so SmartScreen stops warning about them."
