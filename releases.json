@@ -1,5 +1,10 @@
 [
   {
+    "version": "0.2.43",
+    "date": "2026-10-07",
+    "notes": "On macOS, meeting detection and live speaker names no longer go quiet after a permission prompt: the bf-speaker-watch helper now asks macOS for its own Accessibility access, and the app checks the helper's permission instead of the main app's. On Windows, meeting-notes auto-detection is on by default, and the unread taskbar badge has been removed. Behind the scenes: BuildFactory sign-in is centralized into one place for steadier sessions across every window, transcription is all-cloud so the old email module is gone, and a startup crash from a leftover reference is fixed."
+  },
+  {
     "version": "0.2.42",
     "date": "2026-10-05",
     "notes": "Speaker labels stay consistent for the whole meeting — a person read as \"Speaker A\" stays \"Speaker A\" from start to finish, and renaming them once relabels every line they spoke. The transcript header now shows which transcription service is running, and if that service drops mid-meeting the recording is kept and reconnects instead of ending empty. Transcription now always runs in the cloud, so notes come back in seconds with no long on-device processing, and uploads are smaller and faster. A meeting with no speech no longer gets stuck on \"Finishing transcript…\". Clicking the Dock icon always brings the notes window back, even after it was hidden on another Space, and pressing Record on a finished note starts a new note instead of writing over it. Closing and reopening the app keeps you signed in, and your home calendar refreshes on wake. The meeting pop-up appears on whichever display you are on, with a single notification per meeting. On Windows the taskbar badge resets at launch and recording no longer waits on the Screen Recording permission. Diagnostics now shows your timezone, locale and clock, and the Activity log opens in its own viewer."
