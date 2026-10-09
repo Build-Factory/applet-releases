@@ -1,5 +1,10 @@
 [
   {
+    "version": "0.2.44",
+    "date": "2026-10-08",
+    "notes": "You can now share any note from the kebab menu — invite a teammate by email with view, comment, or edit access, or hand out a workspace link, with a Pending access section for incoming requests and a Rotate-and-reveal link option when you need to replace a shared URL. One \"Stop sharing\" click tears down every grant on a note. A mic-detected meeting that isn't on your calendar no longer opens titled \"Google Chrome Helper (call)\"; the note opens untitled and gets a real headline auto-written from the transcript. Behind the scenes: the release workflow now checks releases.json declares a new version before promotion, and the What's New feed PR auto-merges itself."
+  },
+  {
     "version": "0.2.43",
     "date": "2026-10-07",
     "notes": "On macOS, meeting detection and live speaker names no longer go quiet after a permission prompt: the bf-speaker-watch helper now asks macOS for its own Accessibility access, and the app checks the helper's permission instead of the main app's. On Windows, meeting-notes auto-detection is on by default, and the unread taskbar badge has been removed. Behind the scenes: BuildFactory sign-in is centralized into one place for steadier sessions across every window, transcription is all-cloud so the old email module is gone, and a startup crash from a leftover reference is fixed."
