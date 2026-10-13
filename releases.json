@@ -1,5 +1,10 @@
 [
   {
+    "version": "0.2.45",
+    "date": "2026-10-13",
+    "notes": "Windows auto-update is working again — recent versions got stuck because the installer and the auto-updater disagreed on the publisher name; both are now pinned to the same value, so updates install straight through instead of silently failing. One-click Original ↔ Enhanced switcher: a small toggle in the note header flips between the AI-cleaned version and the raw transcript without opening a menu, so you can check what was actually said at a glance. The one-sided-recording banner that used to appear mid-call — telling you only your side was captured — is gone on all platforms; it was firing in cases where the other side was being captured just fine. Long notes no longer jump to the top as you type: the scroll position in the note body is preserved when the applet auto-grows the editor."
+  },
+  {
     "version": "0.2.44",
     "date": "2026-10-08",
     "notes": "You can now share any note from the kebab menu — invite a teammate by email with view, comment, or edit access, or hand out a workspace link, with a Pending access section for incoming requests and a Rotate-and-reveal link option when you need to replace a shared URL. One \"Stop sharing\" click tears down every grant on a note. A mic-detected meeting that isn't on your calendar no longer opens titled \"Google Chrome Helper (call)\"; the note opens untitled and gets a real headline auto-written from the transcript. Behind the scenes: the release workflow now checks releases.json declares a new version before promotion, and the What's New feed PR auto-merges itself."
