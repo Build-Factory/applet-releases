@@ -1,5 +1,10 @@
 [
   {
+    "version": "0.2.47",
+    "date": "2026-10-19",
+    "notes": "The × that closes the transcript drawer is clickable again on Windows — the Windows title-bar buttons used to paint over it, so the only close button you could see was the one that killed the whole window. The chip that used to say \"Original\" is now \"Handwritten\", matching its own tooltip. Ask no longer tells you there are no notes while the summary is still being written: on a long meeting it now says the notes are still cooking (and the Enhanced chip shows a live \"Transcribing…\" / \"Summarizing…\" pill), so you don't get a confident wrong answer during the gap between the recording ending and the summary landing. Behind the scenes: silenced two sources of stray \"something failed\" reports — one from notes trying to sync before an account had been linked to a company, one from the applet still polling backend endpoints that the lean Notes build no longer uses."
+  },
+  {
     "version": "0.2.46",
     "date": "2026-10-14",
     "notes": "Windows meeting capture is working again — recordings on Windows had been producing silence, and the summary at the end claimed coverage when there was none. Recordings now capture both sides reliably on Windows, and if the capture really did fail the summary says so instead of making up content. Recordings no longer auto-stop by mistake while you are still in a meeting: the applet used to end a recording when it thought the room went silent, but the detector could trip when the audio meter itself was down — not when the room was actually silent. A short, transient cloud hiccup during live transcription no longer kills the whole recording; the applet rides out the blip and keeps the take instead of ending the meeting empty. BuildFactory now starts automatically when you log into Mac or Windows and stays hidden until you need it, so meeting detection and notes capture are ready without having to launch the app each morning (you can turn this off in Settings)."
