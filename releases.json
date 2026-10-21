@@ -1,5 +1,10 @@
 [
   {
+    "version": "0.2.48",
+    "date": "2026-10-21",
+    "notes": "On Windows, closing the Notes window no longer quits the app in the background — the tray icon stays, the calendar keeps watching, and the 3-minute pre-meeting pop-up fires on time instead of waiting for the next manual launch. Record is now gated on a live BuildFactory session: if your session has quietly expired you get the sign-in modal before any mic or screen capture starts, instead of a silent capture that can't sync. Behind the scenes: fixed a content-security block that was stopping product telemetry from loading, so session recordings used to debug field issues actually come through."
+  },
+  {
     "version": "0.2.47",
     "date": "2026-10-19",
     "notes": "The × that closes the transcript drawer is clickable again on Windows — the Windows title-bar buttons used to paint over it, so the only close button you could see was the one that killed the whole window. The chip that used to say \"Original\" is now \"Handwritten\", matching its own tooltip. Ask no longer tells you there are no notes while the summary is still being written: on a long meeting it now says the notes are still cooking (and the Enhanced chip shows a live \"Transcribing…\" / \"Summarizing…\" pill), so you don't get a confident wrong answer during the gap between the recording ending and the summary landing. Behind the scenes: silenced two sources of stray \"something failed\" reports — one from notes trying to sync before an account had been linked to a company, one from the applet still polling backend endpoints that the lean Notes build no longer uses."
