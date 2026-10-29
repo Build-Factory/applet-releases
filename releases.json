@@ -1,8 +1,13 @@
 [
   {
+    "version": "0.2.51",
+    "date": "2026-10-29",
+    "notes": "Security updates"
+  },
+  {
     "version": "0.2.50",
     "date": "2026-10-29",
-    "notes": "Fixes sign-in failing with \"Unexpected response from server.\" The applet now identifies itself to BuildFactory on every request, so signing in and syncing work again — earlier builds sent requests with no client identifier, which our edge security had started challenging."
+    "notes": "Fixes sign-in and recording failing after the 29 Oct edge-security change. The applet now identifies itself to BuildFactory on every request — including transcription uploads and Ask / AI chat — so signing in, recording-to-transcript, and Ask all work again. Earlier builds sent some requests with no client identifier, which our edge security had started challenging (seen as \"Unexpected response from server\" on sign-in and \"Recorded, but no speech detected\" after a recording)."
   },
   {
     "version": "0.2.49",
