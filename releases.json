@@ -1,8 +1,28 @@
 [
   {
+    "version": "0.2.55",
+    "date": "2026-11-04",
+    "notes": "Meeting attendees now fill in on Zoom and Teams even when there's no calendar invite — the applet reads who's visible in the meeting window and adds them to the note (Mac). The Share dialog gets Summary / Action items / Full transcript toggles with a live preview and a quote-risk warning on Full transcript. A Settings toggle controls whether your handwritten notes are included in the AI summary (default: on). A compact, always-on-top notepad auto-opens when a meeting starts (default: on) with an Expand button to switch to the full window. Pause / Resume on the recorder releases the mic, freezes the timer, and snaps notes typed during a pause to the resume moment; if the app crashes or you force-quit mid-meeting, a ▶ Resume recording button appears on the note for up to 10 minutes after, stitching pre-crash audio with the new recording and counting the gap as a pause. The Standup, 1:1, Sales, and Interview templates are limited to BuildFactory accounts, and all 12 built-in templates have been rewritten to ask only for what the meeting actually covers. Rich-text editing in your typed notes — bold, italic, headings, lists, ⌘B/⌘I/⌘K shortcuts. Paste bullet lists from Slack and they stay bullets. Reliability: short mic and system-audio drop-outs up to 15 seconds no longer kill a recording (a Bluetooth blip or a 9-second Slack probe can't end a 31-minute call), audio is flushed to disk every 10 seconds so a hard crash loses at most ~10 seconds, an accidental double-click on Record no longer starts two overlapping recordings, and large meetings (over ~1 hour) are sliced, transcribed in pieces and stitched back into one transcript instead of being silently dropped; long jobs stay queued for up to 15 minutes, a blank retry won't overwrite your saved transcript, and retries are capped so a damaged file can't loop forever. Fixes from field reports: Jim's sidebar going blank even though signed in now shows the real reason with a Tap-to-retry (no more fake \"no projects\" screen); the 37-minute Colonial Webb call that lost its transcript survives transcription-service blips because upload chunks now fit under the fallback size limit; lines that used to all read \"Others: …\" when speakers couldn't be named now show Speaker A / B / C and split cross-talk cleanly; the menu bar correctly shows Sign in (not Connect a calendar) after a session expires; the notes window no longer opens to a black screen after a recent template-picker change caused a startup error; and routine Cloudflare pod rotations no longer spam errors in the background. Sidebar and folder-read failures now leave one clean diagnostic (personal data scrubbed) so the next occurrence is fixable at a glance."
+  },
+  {
+    "version": "0.2.54",
+    "date": "2026-11-02",
+    "notes": "Notes editing: ⌘B, ⌘I, ⌘K now work in your notes. Paste bullet lists from Slack and they stay bullets."
+  },
+  {
+    "version": "0.2.53",
+    "date": "2026-11-02",
+    "notes": "Shared notes now carry only what belongs to the note itself — the title, your typed notes, the AI summary, action items, and the transcript with speaker names resolved. Raw diarization letters (A/B/C), speaker-name bookkeeping, device info, and local file paths are no longer sent to the backend or copied into shares and recap emails."
+  },
+  {
+    "version": "0.2.52",
+    "date": "2026-10-30",
+    "notes": "Speaker rename now shows exactly how many lines will change before you confirm. Correcting one mis-attributed line stays local by default; you'll see \"Apply to all N lines\" as an explicit option, and the Who's-who chip bar now asks before rewriting."
+  },
+  {
     "version": "0.2.51",
     "date": "2026-10-29",
-    "notes": "Security updates"
+    "notes": "Security updates."
   },
   {
     "version": "0.2.50",
